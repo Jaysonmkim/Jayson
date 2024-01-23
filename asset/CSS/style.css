@@ -1,0 +1,45 @@
+.fruits{
+    border: 3px solid orangered;
+    text-align: center;
+    font-family: cursive;
+    background-color: chartreuse;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.cars{
+    border: 2px solid black;
+    text-align: right;
+    font-family: "Abyssinica SIL";
+    margin: 15px;
+    padding: 5px;
+    font-size: 15px;
+    background-image: url("asset/images/lamborghini.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Fruits{
+    border: 2px solid darkblue;
+    text-align: right;
+    font-family: "Droid Serif";
+    background-color: brown;
+    margin: 15px;
+    padding: 5px;
+    font-size: 15px;
+}
+#computers{
+    border: 2px solid blue;
+    text-align: center;
+    font-family: cursive;
+    margin: 10px;
+    padding: 5px;
+}
+.FRUITS{
+    border: 3px solid orangered;
+    text-align: center;
+    font-family: cursive;
+    background-color: chartreuse;
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+}

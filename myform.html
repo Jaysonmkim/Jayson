@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="asset/CSS/formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<body>
+<div id="form-container">
+   <div class="form-group">
+       <label for="name">Name</label>
+       <input type="text"id="name" name="name" required>
+   </div>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="passwword"id="pass"name="password" required>
+    </div>
+    <div class="form-group">
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Interest</label>
+        <input type="checkbox"id="interest1"name="interest1">
+        <label for="interest1">Coding</label>
+        <input type="checkbox"id="interest2"name="interest2">
+        <label for="interest2">Travelling</label>
+        <input type="checkbox"id="interest3"name="interest3">
+        <label for="interest3">Reading novels</label>
+        <input type="checkbox"id="interest4"name="interest4">
+        <label for="interest4">PLaying FIFA</label>
+        <input type="checkbox"id="interest5"name="interest5">
+        <label for="interest5">Watching movies</label>
+    </div>
+    <div class="form-group">
+        <label> Choose a Programming Language</label>
+        <input type="radio"id="lang1" name="lang1" value="Kotlin">
+        <label for="lang1">Kotlin</label>
+        <input type="radio"id="lang2" name="lang2" value="Python">
+        <label for="lang2">Python</label>
+        <input type="radio"id="lang3" name="lang3" value="Java">
+        <label for="lang3">Java</label>
+        <input type="radio"id="lang4" name="lang4" value="C++">
+        <label for="lang4">C++</label>
+    </div>
+    <div class="form-group">
+        <label for="message">Additional Information</label>
+        <textarea name="message" id="message" ></textarea>
+    </div>
+    <div class="form-group">
+       <button type="submit">Submit</button>
+    </div>
+</div>
+</body>
+</html>

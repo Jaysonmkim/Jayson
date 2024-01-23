@@ -1,0 +1,29 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+td{
+    border: 3px solid orange;
+    padding: 15px;
+    font-family: "Bitstream Charter";
+    color: #00ffff;
+}
+h2{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-family: "Droid Serif";
+}
+th{
+    font-family: cursive;
+    color: #ffc400;
+    font-size:x-large;
+}
+tr:nth-child(all){
+    background-color: darkgreen;
+}
+body{
+  background-image: url("asset/images/city7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
